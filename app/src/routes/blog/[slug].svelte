@@ -15,7 +15,7 @@
 
 <script>
 	export let post;
-  import { Button } from "sveltestrap";
+    import { Button } from "sveltestrap";
 </script>
 
 <style>
