@@ -15,6 +15,7 @@
 
 <script>
 	export let post;
+  import { Button } from "sveltestrap";
 </script>
 
 <style>
@@ -51,6 +52,11 @@
 	.content :global(li) {
 		margin: 0 0 0.5em 0;
 	}
+
+    .back-button {
+        color: white;
+        text-decoration: none;
+    }
 </style>
 
 <svelte:head>
@@ -62,3 +68,8 @@
 <div class='content'>
 	{@html post.html}
 </div>
+
+<a rel=prefetch class="back-button" href='blog'>
+    <Button color="primary">Back to all posts
+    </Button>
+</a>
