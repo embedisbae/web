@@ -1,4 +1,4 @@
-# together
+# Together
 The website for the Code Together Discord server
 
 
