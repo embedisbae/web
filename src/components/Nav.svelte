@@ -51,9 +51,8 @@
 <nav>
 	<ul>
 		<li><a class='{segment === undefined ? "selected" : ""}' href='.'>Home</a></li>
-		<li><a class='{segment === "about" ? "selected" : ""}' href='about'>About</a></li>
 		<li><a class='{segment === "partners" ? "selected" : ""}' href='partners'>Partners</a></li>
-		<li><a class='{segment === "discord" ? "selected" : ""}' href='discord'>Discord</a></li>
+		<li><a href='https://discordapp.com/invite/HPK3hB6'>Discord</a></li>
 
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 		     the blog data when we hover over the link or tap it on a touchscreen -->
