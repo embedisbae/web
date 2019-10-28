@@ -1,6 +1,6 @@
 {
-  "name": "web",
-  "description": "The Code Together website",
+  "name": "TODO",
+  "description": "TODO",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",

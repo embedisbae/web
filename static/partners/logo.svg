@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="1000px" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56 (81588) - https://sketch.com -->
+    <title>Prototype One</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Prototype-One" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Logo" transform="translate(100.000000, 100.000000)">
+            <circle id="Oval" fill="#000000" cx="400" cy="400" r="400"></circle>
+            <ellipse id="Oval" stroke="#979797" fill="#FFFFFF" transform="translate(400.000000, 400.000000) rotate(45.000000) translate(-400.000000, -400.000000) " cx="400" cy="400" rx="281" ry="199"></ellipse>
+            <path d="M115,336.466664 C128.080031,367.799997 182.461271,383.466664 278.143721,383.466664 C342.20195,383.466664 422.698944,350.510857 522.855994,336.466664 C555.819637,331.844445 610.200972,331.844445 686,336.466664 L686,463.466664 C667.638329,429.466664 613.256994,412.466664 522.855994,412.466664 C462.176856,412.466664 379.86786,448.148339 278.143721,463.466664 C244.926038,468.468813 190.544797,468.468813 115,463.466664 L115,336.466664 Z" id="Rectangle" fill="#000000" transform="translate(400.500000, 400.109138) rotate(45.000000) translate(-400.500000, -400.109138) "></path>
+        </g>
+    </g>
+</svg>
