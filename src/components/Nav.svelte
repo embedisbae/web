@@ -25,7 +25,7 @@
 
 <Navbar light expand="md">
   <div class="container pt-3 pb-3">
-    <NavbarBrand href="/" class="font-weight-bold"><strong>code<a style="color: #CE4B4C;">::</a>together</strong></NavbarBrand>
+    <NavbarBrand href="/" class="font-weight-bold"><strong>code<span style="color: #CE4B4C;">::</span>together</strong></NavbarBrand>
     <NavbarToggler on:click={() => (isOpen = !isOpen)} />
     <Collapse {isOpen} navbar expand="md" on:update={handleUpdate}>
       <Nav class="ml-auto" navbar>
