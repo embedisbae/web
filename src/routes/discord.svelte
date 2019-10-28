@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>Discord</title>
+    <title>Discord</title>
 </svelte:head>
 
 <h1>Join our Discord!</h1>
