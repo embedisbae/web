@@ -1,26 +1,26 @@
 <script>
 	export let segment;
-    import { Button } from "sveltestrap";
+import { Button } from 'sveltestrap';
 
-    import {
-        Collapse,
-        Navbar,
-        NavbarToggler,
-        NavbarBrand,
-        Nav,
-        NavItem,
-        NavLink,
-        UncontrolledDropdown,
-        DropdownToggle,
-        DropdownMenu,
-        DropdownItem
-    } from 'sveltestrap';
+import {
+    Collapse,
+    Navbar,
+    NavbarToggler,
+    NavbarBrand,
+    Nav,
+    NavItem,
+    NavLink,
+    UncontrolledDropdown,
+    DropdownToggle,
+    DropdownMenu,
+    DropdownItem
+} from 'sveltestrap';
 
-    let isOpen = false;
+let isOpen = false;
 
-    function handleUpdate(event) {
-        isOpen = event.detail.isOpen;
-    }
+function handleUpdate(event) {
+    isOpen = event.detail.isOpen;
+}
 </script>
 
 <style>

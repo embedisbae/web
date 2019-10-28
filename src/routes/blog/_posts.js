@@ -8,20 +8,20 @@
 // underscore tells Sapper not to do that.
 
 const posts = [
-  {
-    title: "Hello, World!",
-    slug: "hello-world",
-    short: "This is the first example post on the website...",
-    html: `
+    {
+        title: 'Hello, World!',
+        slug: 'hello-world',
+        short: 'This is the first example post on the website...',
+        html: `
 			<p>This is the first, example, post on the website.!</p>
 
 			<p>The code will live over at <a href="https://github.com/abcdan/together">here</a></p>
 		`
-  }
+    }
 ];
 
 posts.forEach(post => {
-  post.html = post.html.replace(/^\t{3}/gm, "");
+    post.html = post.html.replace(/^\t{3}/gm, '');
 });
 
 export default posts;
