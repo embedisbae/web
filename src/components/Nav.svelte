@@ -1,61 +1,52 @@
 <script>
 	export let segment;
+    import { Button } from "sveltestrap";
+
+    import {
+        Collapse,
+        Navbar,
+        NavbarToggler,
+        NavbarBrand,
+        Nav,
+        NavItem,
+        NavLink,
+        UncontrolledDropdown,
+        DropdownToggle,
+        DropdownMenu,
+        DropdownItem
+    } from 'sveltestrap';
+
+    let isOpen = false;
+
+    function handleUpdate(event) {
+        isOpen = event.detail.isOpen;
+    }
 </script>
 
 <style>
-	nav {
-		border-bottom: 1px solid rgba(255,62,0,0.1);
-		font-weight: 300;
-		padding: 0 1em;
-	}
-
-	ul {
-		margin: 0;
-		padding: 0;
-	}
-
-	/* clearfix */
-	ul::after {
-		content: '';
-		display: block;
-		clear: both;
-	}
-
-	li {
-		display: block;
-		float: left;
-	}
-
-	.selected {
-		position: relative;
-		display: inline-block;
-	}
-
-	.selected::after {
-		position: absolute;
-		content: '';
-		width: calc(100% - 1em);
-		height: 2px;
-		background-color: rgb(255,62,0);
-		display: block;
-		bottom: -1px;
-	}
-
-	a {
-		text-decoration: none;
-		padding: 1em 0.5em;
-		display: block;
-	}
 </style>
 
-<nav>
-	<ul>
-		<li><a class='{segment === undefined ? "selected" : ""}' href='.'>Home</a></li>
-		<li><a class='{segment === "partners" ? "selected" : ""}' href='partners'>Partners</a></li>
-		<li><a href='https://discordapp.com/invite/HPK3hB6'>Discord</a></li>
-
-		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-		     the blog data when we hover over the link or tap it on a touchscreen -->
-		<li><a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>Blog</a></li>
-	</ul>
-</nav>
+<Navbar color="dark" dark expand="md">
+<div class="container">
+  <NavbarBrand href="/">Code Together</NavbarBrand>
+  <NavbarToggler on:click={() => (isOpen = !isOpen)} />
+  <Collapse {isOpen} navbar expand="md" on:update={handleUpdate}>
+    <Nav class="ml-auto" navbar>
+      <NavItem>
+        <NavLink href="/">Home</NavLink>
+      </NavItem>
+      <NavItem>
+        <NavLink href="/partners">Partners</NavLink>
+      </NavItem>
+      <NavItem>
+        <NavLink rel=prefetch href="/blog">Blog</NavLink>
+      </NavItem>
+      <NavItem>
+        <Button href="https://discordapp.com/invite/HPK3hB6" target="_blank" color="primary">
+        Join our Discord
+        </Button>
+      </NavItem>
+    </Nav>
+  </Collapse>
+</div>
+</Navbar>
