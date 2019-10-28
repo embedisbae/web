@@ -12,8 +12,15 @@
 
 <style>
 	ul {
-		margin: 0 0 1em 0;
+		margin: 1em auto;
 		line-height: 1.5;
+	}
+    h1.title {
+		font-size: 2.8em;
+		text-transform: uppercase;
+		font-weight: 700;
+		margin: 0 0 0.5em 0;
+		margin: 0 auto;
 	}
 </style>
 
@@ -21,7 +28,7 @@
 	<title>Blog</title>
 </svelte:head>
 
-<h1>Recent posts</h1>
+<h1 class="title">Let's start reading!</h1>
 
 <ul>
 	{#each posts as post}

@@ -2,7 +2,20 @@
 	<title>Partners</title>
 </svelte:head>
 
-<h1>We have some partners!</h1>
+<style>
+	h1.title {
+		font-size: 2.8em;
+		text-transform: uppercase;
+		font-weight: 700;
+		margin: 0 0 0.5em 0;
+		margin: 0 auto;
+	}
+    p {
+		margin: 1em auto;
+	}
+</style>
+
+<h1 class="title">We have some partners!</h1>
 
 <p><b><a href="https://file.coffee">File.coffee</a></b>
 Love to Share files that are larger than 8MB via Discord or need it for a project? Or make a lot of screenshots but also love privacy? Then try out file.coffee, it's the anonymous file sharing service. No accounts, no registration, just "plug and play".
