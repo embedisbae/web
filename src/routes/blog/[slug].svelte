@@ -57,17 +57,28 @@
         color: white;
         text-decoration: none;
     }
+
+    h1.title {
+		font-size: 2.8em;
+		text-transform: uppercase;
+		font-weight: 700;
+		margin: 0 0 0.5em 0;
+		margin: 0 auto;
+	}
+    p {
+		margin: 1em auto;
+	}
 </style>
 
 <svelte:head>
 	<title>{post.title}</title>
 </svelte:head>
 
-<h1>{post.title}</h1>
+<h1 class="title">{post.title}</h1>
 
-<div class='content'>
+<p class='content'>
 	{@html post.html}
-</div>
+</p>
 
 <a rel=prefetch class="back-button" href='blog'>
     <Button color="primary">Back to all posts
