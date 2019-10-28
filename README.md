@@ -3,7 +3,7 @@ The website for the Code Together Discord server
 
 
 # Setup
-1. Go to the `app` folder
+1. Go to the `root` folder of the project, so where you are probably right now :)
 2. Run `npm install`
 3. Run `npm run dev & open http://localhost:3000`
 4. Navigate to `localhost:3000` in your browser
