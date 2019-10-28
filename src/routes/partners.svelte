@@ -1,18 +1,18 @@
 <svelte:head>
-	<title>Partners</title>
+    <title>Partners</title>
 </svelte:head>
 
 <style>
-	h1.title {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-		margin: 0 auto;
-	}
+    h1.title {
+        font-size: 2.8em;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin: 0 0 0.5em 0;
+        margin: 0 auto;
+    }
     p {
-		margin: 1em auto;
-	}
+        margin: 1em auto;
+    }
 </style>
 
 <h1 class="title">We have some partners!</h1>

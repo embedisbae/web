@@ -13,10 +13,10 @@ const posts = [
         slug: 'hello-world',
         short: 'This is the first example post on the website...',
         html: `
-			<p>This is the first, example, post on the website.!</p>
+            <p>This is the first, example, post on the website.!</p>
 
-			<p>The code will live over at <a href="https://github.com/abcdan/together">here</a></p>
-		`
+            <p>The code will live over at <a href="https://github.com/abcdan/together">here</a></p>
+        `
     }
 ];
 
