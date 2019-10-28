@@ -11,6 +11,7 @@ const posts = [
   {
     title: "Hello, World!",
     slug: "hello-world",
+    short: "This is the first example post on the website...",
     html: `
 			<p>This is the first, example, post on the website.!</p>
 
