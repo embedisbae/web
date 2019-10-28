@@ -3,19 +3,22 @@
 </svelte:head>
 
 <script context="module">
-	export function preload({ params, query }) {
-		return this.fetch(`blog.json`).then(r => r.json()).then(posts => {
-			return { posts };
-		});
-	}
+    export function preload() {
+        return this.fetch('blog.json').then(r => r.json()).then(posts => {
+            return { posts };
+        });
+    }
 </script>
 
 <script>
-	export let posts;
-  import {
-    Button, Card, CardBody, CardFooter, CardHeader,
-    CardImg, CardSubtitle, CardText, CardTitle
-  } from 'sveltestrap';
+    import {
+        Card,
+        CardBody,
+        CardSubtitle,
+        CardText,
+    } from 'sveltestrap';
+
+    export let posts;
 </script>
 
 <style>
