@@ -5,7 +5,6 @@
 <script context="module">
 	export function preload({ params, query }) {
 		return this.fetch(`blog.json`).then(r => r.json()).then(posts => {
-      console.log(posts)
 			return { posts };
 		});
 	}
@@ -72,10 +71,10 @@
     <h3 class="font-weight-bold">Our Partners</h3>
     <div class="row mx-auto pt-2 pb-5">
       <div class="col-sm-2 text-center mx-auto">
-        <a href="https://points.city"><img src="https://points.city/images/logo/DefaultLarge.svg" style="filter:grayscale(100%);" width="70" height="70" draggable="false"></a>
+        <a href="https://points.city"><img alt="Points Logo" src="https://points.city/images/logo/DefaultLarge.svg" style="filter:grayscale(100%);" width="70" height="70" draggable="false"></a>
       </div>
       <div class="col-sm-2 text-center mx-auto">
-        <a href="https://file.coffee"><img src="/partners/logo.svg" style="filter:grayscale(100%);" width="70" height="70" draggable="false"></a>
+        <a href="https://file.coffee"><img alt="File.coffee Logo" src="/partners/logo.svg" style="filter:grayscale(100%);" width="70" height="70" draggable="false"></a>
       </div>
     </div>
   </div>
