@@ -22,6 +22,9 @@
 </script>
 
 <style>
+  html {
+    scroll-behavior: smooth;
+  }
   .container-margin {
     margin-top: 10rem !important;
     margin-bottom: 10rem !important;
@@ -43,12 +46,37 @@
     <p>Welcome to the official website for the Code Together project, it's an amazing place to learn from other developers
     and teach people things. With over 1500 people and new people joining every day you'll always find someone who can help
     you out.</p>
+    <button class="pt-2 pb-2 btn text-white font-weight-bold" style="background-color: #CE4B4C;" href="https://discordapp.com/invite/HPK3hB6">Join us</button> <button class="pt-2 pb-2 btn btn-outline-secondary font-weight-bold" href="#about">Learn more</button>
   </div>
+</section>
+<hr>
+<section id="about">
+    <div class="container">
+        <h3 class="font-weight-bold" style="font-size: 40px;">About</h3>
+        <p>code::together is an online Discord community of programmers and developers.
+        It’s full of individuals who love to help each other, from experts to beginners.
+        We know a range of different languages that are arranged into separate channels.
+        If you need some help with your code, we’ll help debug it for you if you can’t see what’s going wrong.
+        Or if you just want to learn something new, we’ll help direct you to some resources.
+        Hopefully our 1500 and growing users will be able to find some way to support you.</p>
+        <br>
+        <p>We were founded to support others. This means we dedicate our own time to helping new developers.
+        We likewise love to chat about programming & tech and just have a friendly conversation.</p>
+        <h4 class="font-weight-bold" style="font-size: 30px;">What we offer</h4>
+        <ul>
+            <li>we help debug users’ code if they are stuck</li>
+            <li>we direct users to different help articles like documentation</li>
+            <li>we teach users how to do different programming</li>
+            <li>we have channels dedicated to a certain topic, for example, front-end, hosting, etc.</li>
+            <li>we have channels dedicated to certain programming languages</li>
+            <li>we have a special role for developers that really know how to code/have made a big thing</li>
+        </ul>
+    </div>
 </section>
 
 <section id="blog" class="bg-light mt-5 h-100">
   <div class="container mt-5 pt-4 pb-4">
-    <h3 class="font-weight-bold">Blog</h3>
+    <h3 class="font-weight-bold" style="font-size: 40px;">Blog</h3>
     <div class="row">
       {#each posts as post}
         <!-- we're using the non-standard `rel=prefetch` attribute to
