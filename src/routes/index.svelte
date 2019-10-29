@@ -22,9 +22,6 @@
 </script>
 
 <style>
-  html {
-    scroll-behavior: smooth;
-  }
   .container-margin {
     margin-top: 10rem !important;
     margin-bottom: 10rem !important;
