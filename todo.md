@@ -2,9 +2,9 @@
 A handly list of things that need to be built.  
 If a ticket doesn't exist for a task, create a new ticket and make a pull request to update this list.
 
-- [ ] [Configure linters](https://github.com/codedtogether/web/issues/1)
-- [ ] [Merge the Home, About and Discord pages into one page](https://github.com/codedtogether/web/issues/5)
-- [ ] [Write an introduction/about text for the Home page](https://github.com/codedtogether/web/issues/6)
+- [x] [Configure linters](https://github.com/codedtogether/web/issues/1)
+- [x] [Merge the Home, About and Discord pages into one page](https://github.com/codedtogether/web/issues/5)
+- [x] [Write an introduction/about text for the Home page](https://github.com/codedtogether/web/issues/6)
 - [ ] [A discord invite widget with live stats for the Home page](https://github.com/codedtogether/web/issues/7)
 - [ ] 2 example blog post files in Markdown format
 - [ ] API endpoints for fetching a list of blog post metadata and fetching a specific blog post's metadata and markdown content
