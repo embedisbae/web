@@ -14,74 +14,22 @@
 </script>
 
 <script>
-    import { Button } from 'sveltestrap';
+    import { Badge } from 'sveltestrap';
 
     export let post;
 </script>
 
-<style>
-    /*
-        By default, CSS is locally scoped to the component,
-        and any unused styles are dead-code-eliminated.
-        In this page, Svelte can't know which elements are
-        going to appear inside the {{{post.html}}} block,
-        so we have to use the :global(...) modifier to target
-        all elements inside .content
-    */
-    .content :global(h2) {
-        font-size: 1.4em;
-        font-weight: 500;
-    }
-
-    .content :global(pre) {
-        background-color: #f9f9f9;
-        box-shadow: inset 1px 1px 5px rgba(0,0,0,0.05);
-        padding: 0.5em;
-        border-radius: 2px;
-        overflow-x: auto;
-    }
-
-    .content :global(pre) :global(code) {
-        background-color: transparent;
-        padding: 0;
-    }
-
-    .content :global(ul) {
-        line-height: 1.5;
-    }
-
-    .content :global(li) {
-        margin: 0 0 0.5em 0;
-    }
-
-    .back-button {
-        color: white;
-        text-decoration: none;
-    }
-
-    h1.title {
-        font-size: 2.8em;
-        text-transform: uppercase;
-        font-weight: 700;
-        margin: 0 0 0.5em 0;
-        margin: 0 auto;
-    }
-    p {
-        margin: 1em auto;
-    }
-</style>
-
 <svelte:head>
-    <title>{post.title}</title>
+    <title>{post.title} - code::together</title>
 </svelte:head>
 
-<h1 class="title">{post.title}</h1>
+<section id="post">
+  <div class="container">
+    <a rel=prefetch class="back-button" href='blog'><Badge secondary class="rounded-pill pr-2" style="font-size: 1rem !important;"><i class="fas fa-arrow-circle-left"></i> Blog</Badge></a>
+    <h1 class="font-weight-bold mt-4">{post.title}</h1>
 
-<p class='content'>
-    {@html post.html}
-</p>
-
-<a rel=prefetch class="back-button" href='blog'>
-    <Button color="primary">Back to all posts
-    </Button>
-</a>
+    <p class='content'>
+        {@html post.html}
+    </p>
+  </div>
+</section>
