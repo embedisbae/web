@@ -18,17 +18,7 @@
 </script>
 
 <style>
-    ul {
-        margin: 1em auto;
-        line-height: 1.5;
-    }
-    h1.title {
-        font-size: 2.8em;
-        text-transform: uppercase;
-        font-weight: 700;
-        margin: 0 0 0.5em 0;
-        margin: 0 auto;
-    }
+
 </style>
 
 <svelte:head>
