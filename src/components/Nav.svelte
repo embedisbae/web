@@ -35,7 +35,7 @@ function handleUpdate(event) {
           <NavLink rel=prefetch href="/blog">Blog</NavLink>
         </NavItem>
         <NavItem>
-          <Button class="rounded-pill border-0" href="https://discordapp.com/invite/HPK3hB6" target="_blank" style="background-color: #CE4B4C;">
+          <Button class="rounded-pill border-0" href="/discord" target="_blank" style="background-color: #CE4B4C;">
           <strong>Discord</strong>
           </Button>
         </NavItem>

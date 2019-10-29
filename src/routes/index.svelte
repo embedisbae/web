@@ -43,7 +43,7 @@
     <p>Welcome to the official website for the Code Together project, it's an amazing place to learn from other developers
     and teach people things. With over 1500 people and new people joining every day you'll always find someone who can help
     you out.</p>
-    <a target="_blank" class="mt-3 pt-2 pb-2 btn text-white font-weight-bold rounded-pill btn-lg" style="background-color: #CE4B4C;" href="https://discordapp.com/invite/HPK3hB6">Join Us</a> <a class="mt-3 pt-2 pb-2 btn btn-outline-secondary font-weight-bold rounded-pill btn-lg" href="#about">Learn More</a>
+    <a target="_blank" class="mt-3 pt-2 pb-2 btn text-white font-weight-bold rounded-pill btn-lg" style="background-color: #CE4B4C;" href="/discord">Join Us</a> <a class="mt-3 pt-2 pb-2 btn btn-outline-secondary font-weight-bold rounded-pill btn-lg" href="#about">Learn More</a>
   </div>
 </section>
 
