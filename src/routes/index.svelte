@@ -35,15 +35,6 @@
       font-size: 2.5rem !important;
     }
   }
-  .img-grey {
-    filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
-    filter: grayscale(100%) brightness(1) sepia(1) hue-rotate(0deg); /* Current draft standard */
-    -webkit-filter: grayscale(100%) brightness(1) sepia(1) hue-rotate(0deg) invert(0.5); /* New WebKit */
-    -moz-filter: grayscale(100%) brightness(1) sepia(1) hue-rotate(0deg);
-    -ms-filter: grayscale(100%) brightness(1) sepia(1) hue-rotate(0deg);
-    -o-filter: grayscale(100%) brightness(1) sepia(1) hue-rotate(0deg);
-    filter: gray; /* IE6+ */
-  }
 </style>
 
 <section id="welcome">
@@ -57,7 +48,7 @@
 </section>
 
 <section id="partners" class="bg-light">
-  <div class="container pt-3 text-center">
+  <div class="container pt-4 text-center">
     <h2 class="font-weight-bold">Our Partners</h2>
     <div class="row mx-auto pt-2 pb-5">
       <div class="col-sm-2 text-center mx-auto">
