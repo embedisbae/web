@@ -26,7 +26,7 @@
 </svelte:head>
 
 <div class="bg-light pt-5 pb-3">
-  <div class="container text-justify mb-4" style="height: 68.5vh;">
+  <div class="container mb-4" style="height: 68.5vh;">
     <h2 class="font-weight-bold">Let's start reading!</h2>
     <div class="row">
       {#each posts as post}

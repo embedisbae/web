@@ -24,10 +24,21 @@ a {
 .bg-light {
   background-color: #F3F3F3 !important;
 }
-
+.bg-primary {
+  background-color: #CE4B4C !important;
+}
+.text-primary {
+  color: #CE4B4C !important;
+}
+.badge-primary {
+  background-color: #CE4B4C !important;
+}
+.a.bg-primary:focus, a.bg-primary:hover, button.bg-primary:focus, button.bg-primary:hover {
+  background-color: #AE3839 !important;
+}
 @media(prefers-color-scheme: dark) {
   body {
-    background-color: #000;
+    background-color: #0A0A0A;
     color: #fff;
   }
   .navbar-light .navbar-brand {
@@ -42,8 +53,14 @@ a {
   .navbar-light .navbar-nav .nav-link {
     color: #F2F2F2;
   }
+  .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #fff;
+  }
   .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #343a40;
+  }
+  .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #fff;
   }
   .btn-outline-dark {
     color: #fff;
