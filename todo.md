@@ -7,6 +7,7 @@ If a ticket doesn't exist for a task, create a new ticket and make a pull reques
 - [x] [Write an introduction/about text for the Home page](https://github.com/codedtogether/web/issues/6)
 - [ ] [A discord invite widget with live stats for the Home page](https://github.com/codedtogether/web/issues/7)
 - [ ] Dark theme switch, maybe based on browser time with a button in the bottom corners of the website (always in view)
+- [ ] Change the `/cypress/integration/spec.js` file to test our website, it's currently based of the sapper npm degit.
 - [ ] 2 example blog post files in Markdown format
 - [ ] API endpoints for fetching a list of blog post metadata and fetching a specific blog post's metadata and markdown content
 - [ ] Authentication using the Discord OAuth2 API (will be done by someone with access to the server)
