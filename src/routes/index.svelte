@@ -58,7 +58,7 @@
         <a href="https://file.coffee"><img alt="File.coffee Logo" src="/partners/file-coffee.png" class="img-grey" width="70" height="70" draggable="false"></a>
       </div>
       <div class="col-sm-2 text-center mx-auto">
-        <a href="https://file.coffee"><img alt="CrystalBotList Logo" src="/partners/cbl.png" class="img-grey" width="70" height="70" draggable="false"></a>
+        <a href="https://crystalbotlist.uk"><img alt="CrystalBotList Logo" src="/partners/cbl.png" class="img-grey" width="70" height="70" draggable="false"></a>
       </div>
     </div>
   </div>
