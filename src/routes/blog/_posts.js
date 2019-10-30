@@ -36,9 +36,10 @@ const posts = [
         `
     },
     {
-        title: 'Hello, World! [30/10/19]',
+        title: 'Hello, World!',
         slug: 'hello-world',
-        short: 'We recently just deployed the website! Learn what we did and how we did it.',
+        short: 'We recently just deployed the website! Learn what we did and how we did it, and who contribuited to this project.',
+        authors: ['SpyHoodle'],
         html: `
       <p>Welcome to the official code::together website! Our Contributors have been working hard to get it up and running.</p>
       <h3>Welcome to code::together</h3>
