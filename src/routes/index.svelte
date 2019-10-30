@@ -35,6 +35,15 @@
       font-size: 2.5rem !important;
     }
   }
+  .img-grey {
+    filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    filter: grayscale(100%) brightness(1) sepia(1) hue-rotate(0deg); /* Current draft standard */
+    -webkit-filter: grayscale(100%) brightness(1) sepia(1) hue-rotate(0deg) invert(0.5); /* New WebKit */
+    -moz-filter: grayscale(100%) brightness(1) sepia(1) hue-rotate(0deg);
+    -ms-filter: grayscale(100%) brightness(1) sepia(1) hue-rotate(0deg);
+    -o-filter: grayscale(100%) brightness(1) sepia(1) hue-rotate(0deg);
+    filter: gray; /* IE6+ */
+  }
 </style>
 
 <section id="welcome">
@@ -43,7 +52,7 @@
     <p>Welcome to the official website for the Code Together project, it's an amazing place to learn from other developers
     and teach people things. With over 1500 people and new people joining every day you'll always find someone who can help
     you out.</p>
-    <a target="_blank" class="mt-3 pt-2 pb-2 btn text-white font-weight-bold rounded-pill btn-lg" style="background-color: #CE4B4C;" href="/discord">Join Us</a> <a class="mt-3 pt-2 pb-2 btn btn-outline-secondary font-weight-bold rounded-pill btn-lg" href="#about">Learn More</a>
+    <a target="_blank" class="mt-3 pt-2 pb-2 btn text-white font-weight-bold rounded-pill btn-lg" style="background-color: #CE4B4C;" href="/discord">Join Us</a> <a class="mt-3 pt-2 pb-2 btn btn-outline-dark font-weight-bold rounded-pill btn-lg" href="#about">Learn More</a>
   </div>
 </section>
 
@@ -52,10 +61,13 @@
     <h2 class="font-weight-bold">Our Partners</h2>
     <div class="row mx-auto pt-2 pb-5">
       <div class="col-sm-2 text-center mx-auto">
-        <a href="https://points.city"><img alt="Points Logo" src="https://points.city/images/logo/DefaultLarge.svg" style="filter:grayscale(100%);" width="70" height="70" draggable="false"></a>
+        <a href="https://points.city"><img alt="Points Logo" src="/partners/points.png" class="img-grey" width="70" height="70" draggable="false"></a>
       </div>
       <div class="col-sm-2 text-center mx-auto">
-        <a href="https://file.coffee"><img alt="File.coffee Logo" src="/partners/logo.svg" style="filter:grayscale(100%);" width="70" height="70" draggable="false"></a>
+        <a href="https://file.coffee"><img alt="File.coffee Logo" src="/partners/file-coffee.png" class="img-grey" width="70" height="70" draggable="false"></a>
+      </div>
+      <div class="col-sm-2 text-center mx-auto">
+        <a href="https://file.coffee"><img alt="CrystalBotList Logo" src="/partners/cbl.png" class="img-grey" width="70" height="70" draggable="false"></a>
       </div>
     </div>
   </div>

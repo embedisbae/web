@@ -24,12 +24,14 @@
 </svelte:head>
 
 <section id="post">
-  <div class="container">
-    <a rel=prefetch class="back-button" href='blog'><Badge secondary class="rounded-pill pr-2" style="font-size: 1rem !important;"><i class="fas fa-arrow-circle-left"></i> Blog</Badge></a>
-    <h1 class="font-weight-bold mt-4">{post.title}</h1>
+  <div class="bg-light pt-5 pb-3">
+    <div class="container text-justify mb-4" style="height: 68.5vh;">
+      <a rel=prefetch class="back-button" href='blog'><Badge secondary class="rounded pr-2" style="font-size: 1rem !important;">Back</Badge></a>
+      <h1 class="font-weight-bold mt-4">{post.title}</h1>
 
-    <p class='content'>
-        {@html post.html}
-    </p>
+      <p class='content'>
+          {@html post.html}
+      </p>
+    </div>
   </div>
 </section>
