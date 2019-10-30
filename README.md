@@ -24,4 +24,4 @@ Next to that, we use Sveltestrap to easily use Bootstrap components in our websi
 Join our Discord Server at [discord.gg/HPK3hB6](https://discordapp.com/invite/HPK3hB6)
 
 # Thanks!
-Thanks to our amazing [contributiors](https://github.com/codedtogether/web/graphs/contributors), this website was made possible.
+Thanks to our amazing [contributors](https://github.com/codedtogether/web/graphs/contributors), this website was made possible.
