@@ -10,7 +10,7 @@ const dev = NODE_ENV === 'development';
 express() // You can also use Express
     .use(
         compression({ threshold: 9 }),
-        express.static('static', { dev }),
+        express.static('static'),
         sapper.middleware()
     )
     .listen(PORT, err => {
