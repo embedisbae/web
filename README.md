@@ -11,7 +11,7 @@ Follow these steps to view what we have done so far in your browser.
 4. Navigate to `localhost:3000` in your browser
 
 
-# Like to contribute?
+# Want to contribute?
 Please ensure you read our rules for contributors, they can change at any given time so try to stay up-to-date with them.
 [https://github.com/codedtogether/contribute](https://github.com/codedtogether/contribute)<br>
 1. Create a **fork** of this repo
