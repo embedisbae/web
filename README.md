@@ -1,5 +1,5 @@
 # Coded Together
-![GitHub issues](https://img.shields.io/github/issues-raw/codedtogether/web?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues-raw/codedtogether/web?style=for-the-badge)  
 The [website](https://together.codes) for the code::together [Discord Server](https://discordapp.com/invite/HPK3hB6)<br>
 Published under the [MIT Licence](https://github.com/codedtogether/web/blob/master/LICENSE).
 
