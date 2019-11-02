@@ -19,7 +19,7 @@ Please ensure you read our rules for contributors, they can change at any given 
 2. Commit to your new fork
 3. Create a pull request on this repo
 
-# What do we use
+# What we use
 We use `Svelte 3` and `Sapper` to build our website, they are both amazing libraries and frameworks.
 Next to that, we use Sveltestrap to easily use Bootstrap components in our website. For the docs, check [this](https://bestguy.github.io/sveltestrap/) page.
 
