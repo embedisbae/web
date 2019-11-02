@@ -38,38 +38,38 @@ a {
 }
 @media(prefers-color-scheme: dark) {
   body {
-    background-color: #0A0A0A;
-    color: #fff;
+    background-color: #181A1B;
+    color: #fafafa;
   }
   .navbar-light .navbar-brand {
     color: #F2F2F2;
   }
   .bg-light {
-    background-color: #151413 !important;
+    background-color: #1C1D1F !important;
   }
   .card {
-    background-color: #000;
+    background-color: #0f1012;
   }
   .navbar-light .navbar-nav .nav-link {
     color: #F2F2F2;
   }
   .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-    color: #fff;
+    color: #fafafa;
   }
   .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #343a40;
   }
   .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-    color: #fff;
+    color: #fafafa;
   }
   .btn-outline-dark {
-    color: #fff;
-    border-color: #fff;
+    color: #fafafa;
+    border-color: #fafafa;
   }
   .btn-outline-dark:hover {
     color: #343a40;
-    background-color: #fff;
-    border-color: #fff;
+    background-color: #fafafa;
+    border-color: #fafafa;
   }
   .img-grey {
     filter: url("data:image/svg+xml;utf8,<svg%20xmlns='http://www.w3.org/2000/svg'><filter%20id='grayscale'><feColorMatrix%20type='matrix'%20values='0.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200.3333%200.3333%200.3333%200%200%200%200%200%201%200'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
