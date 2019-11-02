@@ -6,7 +6,7 @@ import * as sapper from '@sapper/server';
 
 const { PORT, NODE_ENV } = process.env;
 
-express() // You can also use Express
+express()
     .use(
         compression({ threshold: 9 }),
         express.static('static'),
