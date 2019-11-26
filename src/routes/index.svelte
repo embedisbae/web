@@ -102,13 +102,12 @@
     <h2 class="font-weight-bold">Our Partners</h2>
     <div class="row mx-auto pt-2 pb-5">
       <div class="col-sm-2 text-center mx-auto">
-        <a href="https://points.city"><img alt="Points Logo" src="/partners/points.png" class="img-grey" width="70" height="70" draggable="false"></a>
+        <a href="https://points.city">
+            <img alt="Points Logo" src="/partners/points.png" class="img-grey" width="70" height="70" draggable="false"><p class="text-muted">Points City</p></a>
       </div>
       <div class="col-sm-2 text-center mx-auto">
-        <a href="https://file.coffee"><img alt="File.coffee Logo" src="/partners/file-coffee.png" class="img-grey" width="70" height="70" draggable="false"></a>
-      </div>
-      <div class="col-sm-2 text-center mx-auto">
-        <a href="https://crystalbotlist.uk"><img alt="CrystalBotList Logo" src="/partners/cbl.png" class="img-grey" width="70" height="70" draggable="false"></a>
+        <a href="https://file.coffee">
+            <img alt="File.coffee Logo" src="/partners/file-coffee.png" class="img-grey" width="70" height="70" draggable="false"><p class="text-muted">File Coffee</p></a>
       </div>
     </div>
   </div>
